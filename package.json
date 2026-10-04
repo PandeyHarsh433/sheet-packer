@@ -1,0 +1,28 @@
+{
+  "name": "sheet-packer",
+  "version": "1.0.0",
+  "description": "Pack rectangles onto fixed-size sheets using a binary-tree 2D bin-packing heuristic.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "bin-packing",
+    "2d-packing",
+    "rectangle-packing",
+    "print",
+    "layout"
+  ],
+  "author": "Harsh Pandey",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
